@@ -2310,6 +2310,11 @@ margin-bottom: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+@media(max-width:767px){
+  .Files-page .files-content{
+    width: 100%;
+  }
+}
 .Files-page .files-content .file-card i{
   color: #777;
   cursor: pointer;
