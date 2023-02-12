@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- start sidebar -->
+      <div class="sidebar">
+        <div class="sid-cont">
+        <h3>HZ-CO</h3>
+        <ul>
+          <li>
+            <a class="anc-link" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link active" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link" href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link" href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link" href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a class="anc-link" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <!-- end sidebar -->
+      <!-- start content -->
+      <div class="content">
+        <!-- start head -->
+        <div class="nav-cont">
+            <div class="search">
+                <input type="text" placeholder="Type A key word">
+            </div>
+            <div class="icons">
+                     <i class="notifi fa-regular fa-bell"><span></span></i>
+                    <img src="imgs/avatar.png" alt="">
+            </div>
+        </div>
+         <!-- end head -->
+         <!-- start setting -->
+         <h1 class="main-title">Settings</h1>
+         <div class="settings-page wrapper">
+          <!-- start site control -->
+          <div class="site-control gen-st-widgets">
+            <h2 class="title-head">Site Control</h2>
+            <span>Control The Website If There Is Maintenance</span>
+            <div class="section-control">
+              <div class="text">
+                <h4>Website Control</h4>
+                <span>Open/Close Website And Type The Reason</span>
+              </div>
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked>
+                  <div class="switch-toggle"></div>
+                </label>
+              </div>
+            </div>
+            <textarea placeholder="Close Message Content"></textarea>
+          </div>
+           <!-- end site control -->
+           <!-- Start gen-info -->
+          <div class="genral-info gen-st-widgets">
+            <h2 class="title-head">General Info</h2>
+            <span>General Information About Your Account</span>
+            <form>
+              <div>
+                <label>First Name</label>
+                <br>
+                <input class="input" type="text" placeholder="First Name">
+              </div>
+              <div>
+                <label>Last Name</label>
+                <br>
+                <input class="input" type="password" placeholder="Last Name">
+              </div>
+              <div>
+                <label>Email</label>
+                <br>
+                <div class="last-inp">
+                  <input class="input" type="email" placeholder="0@email.com" disabled>
+                  <button>Change</button>
+                </div>
+              </div>
+            </form>
+          </div>
+           <!-- end gen-info -->
+           <!-- start securety-info -->
+           <div class="Security-Info gen-st-widgets">
+            <h2 class="title-head">Security Info</h2>
+            <span>Security Information About Your Account</span>
+            <div class="section-control sec-inf">
+              <div class="text">
+                <h4>Password</h4>
+                <span>Last Change On 25/10/2021</span>
+              </div>
+              <button class="gen-btn blue">Change</button>
+            </div>
+            <div class="section-control sec-inf">
+              <div class="text">
+                <h4>Two-Factor Authentication</h4>
+                <span>Enable/Disable The Feature</span>
+              </div>
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked>
+                  <div class="switch-toggle"></div>
+                </label>
+              </div>
+            </div>
+            <div class="section-control sec-inf">
+              <div class="text">
+                <h4>Devices</h4>
+                <span>Check The Login Devices List</span>
+              </div>
+              <button class="gen-btn">Devices</button>
+            </div>
+            </div>
+            <!-- end securety-info -->
+              <!-- start Social Info -->
+           <div class="Social-Info gen-st-widgets">
+            <h2 class="title-head">Security Info</h2>
+            <span>Security Information About Your Account</span>
+            <form>
+              <div class="in-ico">
+                <i class="fa-brands fa-twitter"></i>
+                <input class="input" type="text" placeholder="Twitter Username">
+              </div>
+              <div class="in-ico">
+                <i class="fa-brands fa-facebook-f"></i>
+                <input class="input" type="text" placeholder="Facebook Username">
+              </div>
+              <div class="in-ico">
+                <i class="fa-brands fa-linkedin"></i>
+                  <input class="input" type="text" placeholder="Linkedin Username">
+                </div>
+                <div class="in-ico">
+                  <i class="fa-brands fa-youtube"></i>
+                  <input class="input" type="text" placeholder="Youtube Username">
+                </div>
+              </form>
+              </div>
+              <!-- end Social Info -->
+             <!-- start widgets-control -->
+           <div class="widgets-control gen-st-widgets">
+            <h2 class="title-head">Widgets Control</h2>
+            <span>Show/Hide Widgets</span>
+              <div class="contr">
+                <input class="check" type="checkbox" id="one" checked>
+                <label for="one">Quick Draft</label>
+              </div>
+              <div class="contr">
+                <input class="check" type="checkbox" id="two" checked>
+                <label for="two">Yearly Targets</label>
+              </div>
+              <div class="contr">
+                <input class="check" type="checkbox" id="three" checked>
+                <label for="three">Tickets Statistics</label>
+              </div>
+              <div class="contr">
+                <input class="check" type="checkbox" id="four" checked>
+                <label for="four">Latest News</label>
+              </div>
+              <div class="contr">
+                <input class="check" type="checkbox" id="five">
+                <label for="five">Latest Tasks</label>
+              </div>
+              <div class="contr">
+                <input class="check" type="checkbox" id="six" checked>
+                <label for="six">Top Search Items</label>
+              </div>
+           </div>
+           <!-- end widgets-control -->
+           <!-- start backup manger -->
+           <div class="backup-mange gen-st-widgets">
+            <h2 class="title-head">Backup Manager</h2>
+            <span>Control Backup Time And Location</span>
+            <div class="inputs">
+              <div class="contr">
+                <input class="radio" type="radio" name="time" id="rad-one" checked />
+                <label for="rad-one">Daily</label>
+              </div>
+              <div class="contr">
+                <input class="radio" type="radio" name="time" id="rad-two" />
+                <label for="rad-two">Weekly</label>
+              </div>
+              <div class="contr">
+                <input class="radio" type="radio" name="time" id="rad-three" />
+                <label for="rad-three">Monthly</label>
+              </div>
+            </div>
+              <div class="boxes">
+                <div class="box">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Megaman</span>
+                </div>
+                <div class="box active">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Zero</span>
+                </div>
+                <div class="box">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Sigma</span>
+                </div>
+              </div>
+           </div>
+            <!-- end backup manger -->
+           </div>
+             <!-- end site control -->
+      </div>
+    </div>
+      <!-- end content -->
+  </body>
+</html>
